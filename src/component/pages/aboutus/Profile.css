@@ -1,0 +1,79 @@
+/*Intro*/
+.meet-h1 {
+  margin-bottom: 38px;
+}
+
+.profile-row {
+  margin: auto 80px;
+  align-content: center;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+/* Style the counter cards */
+
+.proifle-card {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 16px;
+  height: 340px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.profile-column {
+  margin-bottom: 30px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.profile-column:hover .proifle-card {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #ffe8e8;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.detail {
+  margin-top: 40px;
+}
+
+.member-pic {
+  width: 250px;
+  height: 250px;
+}
+
+.linkedin {
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 990px) {
+  .profile-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

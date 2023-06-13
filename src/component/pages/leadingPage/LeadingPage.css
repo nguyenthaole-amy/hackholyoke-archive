@@ -1,0 +1,76 @@
+.page {
+    position: relative;
+    top: 0;
+    margin: 0 0 0 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.box {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 0;
+    top: 0;
+}
+
+.test {
+    top: 2vh;
+}
+
+.enve {
+    position: absolute;
+    font-size: 0px;
+    top: 20vh;
+    left: 25.5vw;
+    z-index: 10;
+}
+
+.test {
+    font-size: 0px;
+    position: absolute;
+    top: 30vh;
+    left: 44.75vw;
+    z-index: 20;
+}
+
+.shadow {
+    position: relative;
+    width: 55vw;
+    border-radius: 100%;
+    background-color: rgba(97, 97, 97, 0.277);
+    height: 20vh;
+    top: 60vh;
+    left: 23vw;
+    filter: blur(30px);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.animation {
+    animation: expand 2s ease-in-out;
+}
+
+@keyframes expand {
+    to {
+        transform: scaleX(5) scaleY(5) translateY(-50px);
+        opacity: .3;
+    }
+}

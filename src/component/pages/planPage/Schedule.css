@@ -1,0 +1,104 @@
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.time {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.twelve,
+.thirteen {
+  border: 3px solid #b18597;
+  border-radius: 10px;
+  background-color: #ffe8e8;
+  color: #423764;
+  cursor: pointer;
+  font-weight: 550;
+  font-size: 20px;
+  padding: 10px 8px;
+  text-align: center;
+  margin: 10px;
+}
+
+.twelve:hover,
+.thirteen:hover {
+  transform: translateY(3px);
+  box-shadow: 0 5px 10px rgba(121, 0, 0, 0.333);
+  font-weight: 700;
+}
+
+.button-container {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 4vh;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.two-buttons {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.inperson-virtual {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.schedules-est {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.eventStyle {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+table {
+  padding-top: 7vh;
+  width: 70vw;
+  margin: auto;
+  text-align: center;
+  border-spacing: 0;
+  /* border: 2px solid #b18597; */
+}
+
+thead {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0.5rem;
+  border: 2px solid #ffe8e8;
+
+  /* border-bottom: 2px solid #b18597;
+  border-right: 2px solid #b18597; */
+}
+
+tbody {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 990px) {
+.button-container {
+  flex-direction: column;
+}
+}

@@ -1,0 +1,267 @@
+.main-content-container {
+  background-color: white;
+  width: 95.5vw;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.main-padding-top {
+  padding-top: 10vh;
+}
+
+.main-title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.title-img {
+  width: 95.5vw;
+  margin-top: 0;
+}
+
+.daysHours {
+  margin-top: 60vh;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  color: #f8a7a7d3;
+  font-size: 2vw;
+}
+
+.count-down {
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  color: #f8a7a7d3;
+  font-size: 8vw;
+}
+
+.main-date {
+  text-align: center;
+  letter-spacing: 0.5em;
+  line-height: 200%;
+  color: gray;
+  font-size: 1.7vw;
+}
+
+.main-hr {
+  color: gray;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.main-text-center {
+  padding: 5% 23%;
+}
+
+.main-faq {
+  padding: 5% 10%;
+}
+
+.main-title-padding-bottom {
+  padding-left: 0;
+  padding-bottom: 5vh;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.main-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-about-text {
+  margin-bottom: 40px;
+  line-height: 150%;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  font-size: 1.7vw;
+}
+
+.main-button {
+  background-color: #ffe8e8;
+  color: #423764;
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.main-button:hover {
+  text-decoration: none;
+}
+
+.check-out-details {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 1.7vw;
+}
+
+.faq-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.faq-botton-text {
+  margin-top: 5vh;
+  font-size: 1.7vw;
+}
+
+.faq-font-size {
+  font-size: 1.7vw;
+}
+
+.faq-narrow {
+  display: none;
+}
+
+.main-sponsors {
+  padding: 5% 20%;
+}
+
+.sponsor-logo {
+  margin: 5% 3%;
+}
+
+@media only screen and (max-width: 1280px) {
+  .main-text-center {
+    padding: 5% 15%;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
+  .main-padding-top {
+    padding-top: 7vw;
+  }
+
+  .daysHours {
+    margin-top: 25vh;
+  }
+}
+
+@media only screen and (max-device-width: 1170px) and (orientation: portrait) {
+  .main-padding-top {
+    padding-top: 7vw;
+  }
+
+  .daysHours {
+    margin-top: 20vh;
+  }
+}
+
+@media only screen and (max-device-width: 828px) and (orientation: portrait) {
+  .main-padding-top {
+    padding-top: 7vw;
+  }
+
+  .daysHours {
+    margin-top: 23vh;
+  }
+}
+
+@media only screen and (max-device-width: 828px) and (orientation: landscape) {
+  .main-padding-top {
+    padding-top: 6vw;
+  }
+
+  .daysHours {
+    margin-top: 30vw;
+  }
+}
+
+@media only screen and (max-device-width: 786px) and (orientation: portrait) {
+  .main-padding-top {
+    padding-top: 5vh;
+  }
+
+  .daysHours {
+    margin-top: 25vh;
+  }
+}
+
+@media only screen and (max-device-width: 430px) and (orientation: portrait) {
+
+  .main-padding-top {
+    padding-top: calc(env(safe-area-inset-top) + 8vw);
+  }
+
+  .main-title-padding-bottom {
+    padding-left: 0;
+    padding-bottom: 1vh;
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bold;
+  }
+
+  .daysHours {
+    margin-top: 18vh;
+  }
+
+  .main-text-center {
+    padding: 3% 5%;
+  }
+
+  .main-about-text {
+    margin-bottom: 40px;
+    line-height: 150%;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-size: 2.8vw;
+  }
+
+  .main-flex {
+    justify-content: space-around;
+  }
+
+  .faq-wide {
+    display: none;
+  }
+
+  .faq-narrow {
+    display: block;
+  }
+
+  .main-faq {
+    padding: 3% 5%;
+  }
+
+  .title-img {
+    width: 95.5vw;
+    margin-top: 0;
+  }
+
+  .main-date {
+    text-align: center;
+    letter-spacing: 0.5em;
+    line-height: 200%;
+    color: gray;
+    font-size: 2.8vw;
+  }
+
+  .main-button {
+    font-size: 4.8vw;
+  }
+
+  .faq-botton-text {
+    margin-top: 2vh;
+    font-size: 2.3vw;
+  }
+
+  .faq-font-size {
+    font-size: 2.3vw;
+  }
+
+  .check-out-details {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 2.3vw;
+  }
+}

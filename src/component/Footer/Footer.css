@@ -1,0 +1,158 @@
+body {
+  background-color: #ffe8e8;
+}
+
+footer {
+  position: relative;
+  overflow: hidden;
+  height: 92.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  z-index: -10;
+  font-size: 0;
+  width: 100%;
+  top: 3.5vh;
+}
+
+.footer-2 {
+  position: absolute;
+  width: 100%;
+  font-size: 0;
+  z-index: -20;
+  left: 0;
+  top: 0;
+}
+
+.back-mail {
+  background-color: #d5c7fd;
+  width: 100%;
+  position: absolute;
+  z-index: -20;
+  height: 70vh;
+  top: 3.2vh;
+}
+
+.paper-mail {
+  background-color: white;
+  width: 95.5vw;
+  position: absolute;
+  top: 0;
+  z-index: -15;
+  height: 50vh;
+  color: #423764;
+  text-align: center;
+}
+
+/* ipad air, ipad */
+@media only screen and (max-device-width: 820px) and (orientation: portrait) {
+  footer {
+    height: 49.25vw;
+  }
+
+  .footer {
+    top: 1vh;
+  }
+
+  .back-mail {
+    top: 1vh;
+  }
+}
+
+@media only screen and (max-device-width: 820px) and (orientation: landscape) {
+  footer {
+    height: 49.25vw;
+  }
+
+  .footer {
+    top: 1vh;
+  }
+
+  .back-mail {
+    top: 1vh;
+  }
+}
+
+/* ipad pro */
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
+  footer {
+    height: 49.25vw;
+  }
+
+  .footer {
+    top: 1vh;
+  }
+
+  .back-mail {
+    top: 1vh;
+  }
+}
+
+/* mobile */
+@media only screen and (max-device-width: 430px) and (orientation: portrait) {
+  footer {
+    height: calc(env(safe-area-inset-bottom) + 49.75vw);
+  }
+
+  .footer {
+    top: .85vh;
+  }
+
+  .back-mail {
+    top: .80vh;
+  }
+
+  .paper-mail {
+    height: 100vw;
+  }
+}
+
+/* iphone 13, 14 */
+@media only screen and (min-device-width: 1170px) and (orientation: portrait) {
+  footer {
+    height: 23vh;
+  }
+
+  .footer {
+    top: .85vh;
+  }
+
+  .back-mail {
+    top: .80vh;
+  }
+}
+
+/* ipad air landscape */
+@media only screen and (min-device-width: 1024px) and (orientation: landscape) {
+  footer {
+    height: 49.5vw;
+  }
+
+  .footer {
+    top: 2.5vh;
+  }
+
+  .back-mail {
+    top: 2.5vh;
+  }
+}
+
+/* window scaling */
+@media only screen and (min-width:1181px) and (max-width: 1330px) {
+  footer {
+    height: 48.5vw;
+  }
+
+  .footer {
+    top: 2.5vh;
+  }
+
+  .back-mail {
+    top: 2.5vh;
+  }
+}

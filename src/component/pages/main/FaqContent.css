@@ -1,0 +1,41 @@
+.faq-container {
+    margin: 5%;
+    text-align: left;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #4242429e solid 1px;
+}
+
+.faq-question-font-size {
+    font-size: 1.3vw;
+}
+
+.faq-open {
+    margin-top: 2%;
+}
+
+.faq-open-text {
+    font-size: 0.8rem;
+}
+
+.faq-close {
+    display: none;
+}
+
+@media only screen and (max-width: 990px) {
+    .faq-container {
+        margin: 2%;
+        text-align: left;
+    }
+
+    .faq-question-font-size {
+        font-size: 3vw;
+    }
+
+    .faq-open-text {
+        font-size: 2.5vw;
+    }
+}

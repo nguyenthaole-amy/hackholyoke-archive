@@ -1,0 +1,101 @@
+* {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+hr {
+  color: gray;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.about-h1 {
+  padding-left: 13vw;
+  text-align: left;
+  padding-bottom: 5vh;
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.header-img {
+  padding-top: 120px;
+  width: 95.5vw;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  background-color: white;
+  width: 95.5vw;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+/*About Us*/
+
+.info {
+  display: flex;
+  width: 70vw;
+  margin: 0 auto 7vh;
+  text-align: justify;
+  justify-content: center;
+}
+
+.abt-para {
+  padding-right: 4vw;
+  font-size: 1.5vw;
+}
+
+.abt-img {
+  margin-bottom: 3vw;
+}
+
+.onsite-img {
+  width: 30vw;
+}
+
+.abt-font-size {
+  font-size: 1.5vw;
+}
+
+@media (max-width: 990px) {
+  .content-container {
+    background-color: white;
+    width: 95.5vw;
+    margin: 0 auto;
+    padding: 0 10px 5px;
+    text-align: center;
+  }
+
+  .info {
+    display: block;
+    margin: 0 2vw 3vh;
+    width: 95%;
+  }
+
+  .about-h1 {
+    padding-left: 2vw;
+    text-align: left;
+    padding-bottom: 1.5vh;
+    font-size: 4vw;
+    font-weight: 700;
+  }
+
+  .abt-para {
+    padding-right: 0;
+    font-size: 2.8vw;
+    margin-bottom: 2vh;
+  }
+
+  .onsite-img {
+    width: 100%;
+  }
+
+  .abt-font-size {
+    font-size: 2.8vw;
+  }
+}

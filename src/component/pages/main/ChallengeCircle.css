@@ -1,0 +1,37 @@
+.circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 20%;
+  background-color: #ffe8e8;
+  margin: 3%;
+}
+
+.circle:hover {
+  box-shadow: 0 0 20px 10px #f8a7a7d3;
+}
+
+.challeng-img {
+  width: 50%;
+  margin-top: 12%;
+}
+
+.challeng-name {
+    margin-top: 2%;
+    font-size: 1.1vw;
+}
+
+@media only screen and (max-width: 1550px) {
+.circle {
+    height: 200px;
+    width: 200px;
+}}
+
+@media only screen and (max-width: 990px) {
+  .circle {
+    height: 300px;
+    width: 300px;
+}
+
+  .challeng-name {
+    font-size: 25px;
+}}

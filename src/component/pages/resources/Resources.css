@@ -1,0 +1,206 @@
+#line {
+  height: 5vh;
+}
+
+#challenges {
+  font-family: "Montserrat", sans-serif;
+  color: #ff5f5f !important;
+  font-size: 3vw;
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
+.prehack {
+  font-family: "Montserrat", sans-serif;
+  color: #ff5f5f !important;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.guide-for-hackers {
+  font-size: 2vw;
+}
+
+#box1 {
+  position: relative;
+  margin-left: 2.5%;
+  width: 95%;
+  /* border-bottom: #4242429e solid 1px; */
+  padding-bottom: 30px;
+}
+
+.challenge {
+  color: #423764;
+  top: 50%;
+  background-color: none;
+  text-align: center;
+}
+
+.c-image {
+  height: 10vh;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 2.3vw;
+}
+
+.content {
+  font-size: 1.6vw;
+}
+
+.prizes {
+  font-size: 1.4vw;
+  font-style: italic;
+  font-weight: 600;
+}
+
+#box2 {
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-left: 2.5%;
+  width: 95%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.guide-preview {
+  width: 50%;
+}
+
+/*challenge slide styles*/
+
+/* Next & previous buttons */
+#prev,
+#next {
+  background-color: white;
+  border: none !important;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px 24px 16px 24px;
+  color: #ff5f5f;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.7s ease;
+  user-select: none;
+  outline: none;
+}
+
+#prev:hover,
+#next:hover {
+  background-color: #ff5f5f;
+  color: white;
+  border-radius: 100px;
+}
+
+
+/* Position the "next button" to the right */
+#next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*zoom-in animation*/
+.zoom-in {
+  animation-name: zoom-in;
+  animation-duration: 3s;
+}
+
+@keyframes zoom-in {
+  from {
+    transform: translateY(-50%);
+    scale: 0.1;
+  }
+
+  to {
+    transform: translateY(0%);
+    scale: 1;
+  }
+}
+
+/*bounce from top animation*/
+.right-slide {
+  animation-name: right-slide;
+  animation-duration: 1.5s;
+}
+
+@keyframes right-slide {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0.1;
+  }
+
+  50% {
+    transform: translateY(10%);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #challenges {
+    font-size: 6vw;
+  }
+
+  .title {
+    font-size: 5.8vw;
+  }
+
+  .content {
+    font-size: 4.8vw;
+  }
+
+  .prizes {
+    font-size: 3.4vw;
+  }
+
+  .c-image {
+    object-fit: cover;
+    width: 60vw;
+    height: 100%;
+  }
+
+  #prev,
+  #next {
+    font-size: 40px;
+  }
+
+  .prehack {
+    font-size: 6vw;
+  }
+
+  .guide-for-hackers {
+    font-size: 3.6vw;
+  }
+
+  .guide-preview {
+    width: 100%;
+  }
+}
