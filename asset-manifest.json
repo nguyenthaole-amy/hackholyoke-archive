@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hackholyoke-archives/static/css/main.b5672b22.css",
-    "main.js": "/hackholyoke-archives/static/js/main.68c8919b.js",
+    "main.js": "/hackholyoke-archives/static/js/main.8eac44a1.js",
     "static/media/abigel.png": "/hackholyoke-archives/static/media/abigel.e001a1377f6cc822bee4.png",
     "static/media/ellie.png": "/hackholyoke-archives/static/media/ellie.c73d2bcd59f54907a968.png",
     "static/media/mumtaz.png": "/hackholyoke-archives/static/media/mumtaz.22a82bee72e01ac2f142.png",
@@ -35,10 +35,10 @@
     "static/media/in-person.svg": "/hackholyoke-archives/static/media/in-person.af6c9f51cfd4b43792d59bf0ebb73b49.svg",
     "static/media/virtual.svg": "/hackholyoke-archives/static/media/virtual.7e2047bb50eb49fe33e0e90926073ab9.svg",
     "main.b5672b22.css.map": "/hackholyoke-archives/static/css/main.b5672b22.css.map",
-    "main.68c8919b.js.map": "/hackholyoke-archives/static/js/main.68c8919b.js.map"
+    "main.8eac44a1.js.map": "/hackholyoke-archives/static/js/main.8eac44a1.js.map"
   },
   "entrypoints": [
     "static/css/main.b5672b22.css",
-    "static/js/main.68c8919b.js"
+    "static/js/main.8eac44a1.js"
   ]
 }
